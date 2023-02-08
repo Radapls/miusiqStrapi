@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instruments",
+  "info": {
+    "singularName": "instrument",
+    "pluralName": "instruments",
+    "displayName": "Instruments",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
